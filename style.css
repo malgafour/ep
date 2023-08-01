@@ -1,0 +1,51 @@
+
+@font-face {
+    font-family: IBMPlexSansArabic-Regular;
+    src: url(./fonts/IBMPlexSansArabic-Regular.ttf);
+  }
+  
+  body{
+    background-image: url('./imgs/bg.png');
+    font-family:IBMPlexSansArabic-Regular;
+}
+
+.btn-serch{
+    background: transparent linear-gradient(271deg, #FA8300 0%, #F9E800 100%) 0% 0% no-repeat padding-box;
+box-shadow: 0px 10px 60px #0000000D;
+border-radius: 10px 0px 0px 10px;
+}
+.form-control-lg {
+    min-height: calc(2.5em + (1rem + 2px));}
+
+
+    #loading{
+        position:fixed;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        background-color: gray;
+        color: white;
+        opacity: 1;
+        transition: 0.5s;
+        visibility: visible;
+        z-index: 10000;
+      }
+      #loading.hidden{
+        opacity: 0;
+        visibility: hidden;
+      }
+      #loading img{padding-top: 20%;
+        padding-right: 40%;}
+
+
+        .result{
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 10px 60px #0000000D;
+border: 1px solid #EAEAEA;
+border-radius:0 0 10px 10px;
+        }
+        .text-right{text-align: right !important;}
+        .link-class:hover{
+            background-color:#f1f1f1;
+           }
