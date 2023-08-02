@@ -7,8 +7,16 @@
   body{
     background-image: url('./imgs/bg.png');
     font-family:IBMPlexSansArabic-Regular;
-}
+    position: relative;
+    min-height: 45rem;
 
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;            /* Footer height */
+  }
 .btn-serch{
     background: transparent linear-gradient(271deg, #FA8300 0%, #F9E800 100%) 0% 0% no-repeat padding-box;
 box-shadow: 0px 10px 60px #0000000D;
@@ -19,6 +27,9 @@ border-radius: 10px 0px 0px 10px;
 
 
     #loading{
+        position:relative;
+    height: 100%;
+    width:100%;
         position:fixed;
         top:0;
         left:0;
@@ -35,8 +46,12 @@ border-radius: 10px 0px 0px 10px;
         opacity: 0;
         visibility: hidden;
       }
-      #loading img{padding-top: 20%;
-        padding-right: 40%;}
+      #loading img{
+        position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+      }
 
 
         .result{
@@ -44,8 +59,15 @@ border-radius: 10px 0px 0px 10px;
 box-shadow: 0px 10px 60px #0000000D;
 border: 1px solid #EAEAEA;
 border-radius:0 0 10px 10px;
+
         }
         .text-right{text-align: right !important;}
         .link-class:hover{
             background-color:#f1f1f1;
            }
+
+
+           #result2{height: 21rem;
+            width: 100%;
+           overflow-y: scroll;
+           overflow-x: hidden;}
