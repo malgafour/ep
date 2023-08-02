@@ -8,13 +8,15 @@
     background-image: url('./imgs/bg.png');
     font-family:IBMPlexSansArabic-Regular;
     position: relative;
-    min-height: 45rem;
+    min-height: 42rem;
+    display: flex;
+flex-direction: column;
 
 }
-footer {
-     bottom: 0;
+footer { 
     width: 100%;
-    height: 2.5rem;             
+    height: 2.5rem;    
+    margin-top: auto;         
   }
 .btn-serch{
     background: transparent linear-gradient(271deg, #FA8300 0%, #F9E800 100%) 0% 0% no-repeat padding-box;
